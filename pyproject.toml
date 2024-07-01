@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "pfilter"
+version = "0.0.0"
+description = "Command-line tool that filters out a CSV dataset using lower and upper percentiles"
+authors = ["Aliaksei Bialiauski <aliaksei.bialiauski@hey.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
