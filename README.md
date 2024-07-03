@@ -22,13 +22,14 @@ pip install pfilter
 Now, execute it with the following flags:
 
 ```bash
-pfilter --csv=data.csv --lower=0.05 --upper=0.95 --o=filtered.csv
+pfilter --csv=foo.csv --c=age --lower=0.05 --upper=0.95 --o=filtered.csv
 ```
 
-Where, `--csv` is a path to your source CSV file, `--lower` is a lower
-percentile (max is 1, so 0.05 is a 5th percentile, or P5 for short),
-`--upper` is an upper percentile (max is 1, so 0.95 is a 95th percentile, or
-P95 for short), and `--o` is a location for the output, filtered dataset.
+Where, `--csv` is a path to your source CSV file, `--c` is a column to filter by,
+`--lower` is a lower percentile (max is 1, so 0.05 is a 5th percentile, or P5
+for short), `--upper` is an upper percentile (max is 1, so 0.95 is a 95th
+percentile, or P95 for short), and `--o` is a location for the output, filtered
+dataset.
 
 ## How to contribute
 
