@@ -6,7 +6,7 @@ authors = ["Aliaksei Bialiauski <aliaksei.bialiauski@hey.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pandas = "^2.2.2"
+pandas = "^3.0.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.2"
